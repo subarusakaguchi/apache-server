@@ -1,0 +1,425 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: #AD67EA;
+    font: bold 40px arial;
+}
+
+h2 {
+    color: #FBFEF9;
+    font: bold 30px arial;
+}
+
+p {
+    color: #AD67EA;
+    font: normal 16px arial;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+body {
+    background-color: black;
+}
+
+a {
+    color: #E83151;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    overflow: hidden;
+    background-color: #191923;
+    max-width: 100%;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo {
+    color: #AD67EA;
+    float: left;
+    font: bold 30px arial;
+}
+
+.menu {
+    margin-top: 10px;
+    font: bold 25px arial;
+    float: right;
+    list-style: none;
+}
+
+li.head {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.head:hover {
+    color: white;
+    background-color: #E83151;
+}
+
+.main {
+    height: 800px;
+    width: 100%;
+    background-image: url(../images/Fundo-programming-1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* padding: 50px; */
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.753);
+    text-align: center;
+}
+
+.mainText,
+.myPicture {
+    margin-top: 180px;
+    display: inline-block;
+}
+
+.mainText {
+    height: 220px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.507);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.myPicture {
+    margin-left: 80px;
+}
+
+.pData {
+    color: #E83151;
+    font: normal 18px arial;
+    line-height: 25px;
+}
+
+#icon1 {
+    list-style-image: url(../images/icon-email-20.png);
+    list-style-position: inside;
+}
+
+#icon2 {
+    list-style-image: url(../images/icon-tel-20.png);
+    list-style-position: inside;
+}
+
+#icon3 {
+    list-style-image: url(../images/icon-marcador-20.png);
+    list-style-position: inside;
+}
+
+.mb {
+    margin-bottom: 15px;
+}
+
+/* About */
+
+.presentation {
+    /* position: relative; */
+    background-color: #191923;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.divIllustration,
+.aboutText {
+    display: inline-block;
+    /* padding: 50px; */
+    /* position: absolute; */
+}
+
+.aboutText {
+    margin-left: 50px;
+    text-align: justify;
+    width: 500px;
+    transform: translateY(-70%);
+    /* left: 50%;
+    top: 30%; */
+}
+
+.center {
+    text-align: center;
+}
+
+.codingIllustration {
+    width: 600px;
+}
+
+.tech {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: #0E79B2;
+    border-radius: 30px;
+    border: 5px solid #043652;
+}
+
+.card {
+    padding: 20px;
+    display: inline-block;
+    width: 30%;
+    height: 200px;
+    background-color: #0e0e18;
+    margin-top: 60px;
+    margin-left: 30px;
+    box-shadow: 3px 3px 4px black;
+    box-sizing: border-box;
+}
+
+.h3Card {
+    color: white;
+    font: normal 20px arial;
+}
+
+.pCard {
+    font-size: 18px;
+}
+
+/* Experiência */
+
+#exp {
+    padding-top: 50px;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-image: url(../images/estudando-original.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.74);
+}
+
+.card2 {
+    background-color: #191923;
+    width: 90%;
+    height: 200px;
+    display: inline-block;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.452);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.inlineBlock {
+    display: inline-block;
+    width: 45%;
+}
+
+.expText {
+    color: #E83151;
+    text-align: left;
+    font: normal 20px arial;
+}
+
+/* Portfólio */
+
+#portfolio {
+    background-color: #191923;
+    padding-top: 50px;
+    width: 100%;
+    height: 550px;
+    text-align: center;
+}
+
+.portImg {
+    height: 400px;
+}
+
+.portText {
+    color: #E83151;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font: normal 20px arial;
+    background-color: rgba(0, 0, 0, 0.589);
+    border-radius: 20px;
+    border: 2px solid #E83151;
+}
+
+/* Contato */
+
+#contato {
+    width: 100%;
+    height: 600px;
+    padding-top: 50px;
+    text-align: center;
+    background-image: url(../images/contato-1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.671);
+}
+
+input,
+textarea {
+    width: 80%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 5px solid #E83151;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #19192371;
+    font: normal 18px arial;
+    color: #AD67EA;
+}
+
+.botao {
+    display: inline-block;
+    width: 10%;
+    border-radius: 20px;
+    background-color: #0E79B2;
+    color: white;
+    font: bold 20px arial;
+    border: 5px solid #063955;
+}
+
+.botao:hover {
+    background-color: white;
+    color: #0E79B2;
+    cursor: pointer;
+}
+
+/* Rodapé */
+
+footer {
+    color: #E83151;
+    background-color: #191923;
+    padding-top: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+/* Responsividade */
+
+@media only screen and (max-width: 767px) {
+    img {
+        width: 250px;
+    }
+
+    /* Cabeçalho */
+
+    header {
+        padding: 0;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .logo {
+        font-size: 40px;
+    }
+
+    .menu {
+        visibility: hidden;
+        height: 0;
+    }
+
+    /* Principal */
+
+    .mainText {
+        margin-top: 150px;
+        width: 80%;
+        height: 300px;
+    }
+
+    .myPicture {
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    /* Sobre */
+
+    .presentation {
+        padding-top: 50px;
+        height: 500px;
+    }
+
+    .codingIllustration {
+        width: 300px;
+    }
+
+    .aboutText {
+        margin-top: 20px;
+        margin-left: 0;
+        text-align: justify;
+        width: 80%;
+        transform: translateY(0);
+    }
+
+    /* Habilidades */
+
+    #skills {
+        height: 1250px;
+        background-color: #191923;
+    }
+
+    .card {
+        padding: 20px;
+        display: block;
+        width: 80%;
+        height: 270px;
+        background-color: #0e0e18;
+        margin: auto;
+        margin-top: 60px;
+        box-shadow: 3px 3px 4px black;
+        box-sizing: border-box;
+    }
+
+    /* Experiência */
+
+    #exp {
+        height: 820px;
+    }
+
+    #mtEXP {
+        margin-top: 50px;
+    }
+
+    .inlineBlock {
+        display: block;
+        width: 100%;
+    }
+
+    .card2 {
+        width: 80%;
+        height: 300px;
+    }
+
+    /* Portfólio */
+
+    #portfolio {
+        height: 1000px;
+    }
+
+    .portImg {
+        width: 200px;
+    }
+
+    /* Contato */
+
+    .botao {
+        width: 40%;
+    }
+}
